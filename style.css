@@ -1,0 +1,187 @@
+.navbar{
+ background-color: #D32F2F !important;
+}
+
+.nav-link{
+ color: white !important;
+font-weight: bold !important;
+
+}
+.nav-link:hover{
+ color: #64DD17 !important;
+
+}
+.nav-link:active{
+color: #4527A0 !important;
+
+}
+
+.img{
+ width: 100px;
+}
+.fa-shopping-cart{
+ font-size: 32px !important;
+ color: white;
+ 
+}
+
+.fa-user-circle-o{
+ font-size: 32px !important;
+ color: white;
+ padding-right: 7px;
+ padding-left: 7px;
+ margin-left: 2px;
+ margin-right: 2px;
+
+}
+
+.slidertextcolour{
+ color: black;
+}
+
+.fa-truck{
+ font-size: 50px !important;
+ margin-right: 10px;
+ color: #D32F2F;
+}
+
+
+.card1{
+ display: flex;
+ height: 100px;
+ width: 300px;
+ /* border: 2px solid black; */
+ background-color: white;
+ box-shadow: 2px 4px 5px gray;
+
+ justify-content: center;
+
+ align-items: center;
+
+ margin-top: 10px;
+
+}
+
+
+.mainCard{
+ margin-top: 30px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+flex-wrap: wrap;
+
+}
+
+.fa-headphones{
+ font-size: 50px !important;
+ margin-right: 10px;
+ color: #D32F2F;
+
+}
+
+
+.card2{
+ display: flex;
+ height: 100px;
+ width: 300px;
+ /* border: 2px solid black; */
+ background-color: white;
+ box-shadow: 2px 4px 5px gray;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+
+}
+
+
+.fa-thumbs-up{
+ font-size: 50px !important;
+ margin-right: 10px;
+ color: #D32F2F;
+
+
+
+}
+
+h3{
+ color: #D32F2F;
+}
+
+
+
+
+.card3{
+ display: flex;
+ height: 100px;
+ width: 300px;
+ /* border: 2px solid black; */
+ background-color: white;
+ box-shadow: 2px 4px 5px gray;
+
+ justify-content: center;
+ align-items: center;
+
+ margin-top: 10px;
+}
+
+
+.newArrivals{
+
+ margin-top: 30px;
+}
+
+.card{
+ width: 250px;
+ height: auto !important;
+ margin-bottom: 5px;
+}
+
+
+.card-text{
+ font-weight: bold;
+}
+.btn-primary{
+ width: 100%;
+ background-color: #D32F2F;
+}
+
+
+.heading{
+text-align: center;
+font-weight: bold;
+color: #D32F2F;
+margin: 10px !important;
+   
+}
+
+.heading >h1{
+ text-shadow: 2px 2px 4px black;
+
+}
+
+.Footer{
+ width: 100% !important; 
+ background-color: #D32F2F !important;
+height: 70px;
+
+}
+h4{
+ color: wheat;
+}
+.Footer >div {
+ text-align: center !important;
+ align-items: center;
+}
+
+
+
+
+@media only screen and (max-width:617px) {
+ .card1,
+ .card2,
+ .card3{
+  width: 100%;
+ }
+}
